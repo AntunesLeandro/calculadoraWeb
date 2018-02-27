@@ -33,7 +33,7 @@ public class calcServlet extends HttpServlet {
 		String valorA = request.getParameter("valor1");
 		String valorB = request.getParameter("valor2");
 		
-		if(org.apache.commons.lang.StringUtils.isEmpty(valorA) & org.apache.commons.lang.StringUtils.isEmpty(valorB))
+		if(StringUtils.isEmpty(valorA) || StringUtils.isEmpty(valorB))
 		{
 			retorno.print("Valores nulos!");
 		}
