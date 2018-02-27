@@ -35,7 +35,7 @@ public class calcServlet extends HttpServlet {
 		
 		if(StringUtils.isEmpty(valorA) || StringUtils.isEmpty(valorB))
 		{
-			retorno.print("Valores nulos!"); //
+			retorno.print("Valores nulos!"); //teste
 		}
 		else 
 		{	
